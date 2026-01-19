@@ -1,177 +1,381 @@
-<!doctype html>
-<html lang="">
+<html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title></title>
-  <link rel="stylesheet" href="css/style.css">
-  <meta name="description" content="">
+    <title>Happy Birthday</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
 
-  <meta property="og:title" content="">
-  <meta property="og:type" content="">
-  <meta property="og:url" content="">
-  <meta property="og:image" content="">
-  <meta property="og:image:alt" content="">
+    <meta property="og:title" content="">
+    <meta property="og:type" content="">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+    <meta property="og:image:alt" content=""> <!-- Google Fonts -->
+    <link rel="manifest" href="site.webmanifest">
+    <meta name="theme-color" content="#fafafa">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Open+Sans&display=swap"
+        rel="stylesheet">
 
-  <link rel="apple-touch-icon" href="icon.png">
-
-  <link rel="manifest" href="site.webmanifest">
-  <meta name="theme-color" content="#fafafa">
-
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
-    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Open+Sans&display=swap"
-    rel="stylesheet">
-  <!-- Style Flipdown -->
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
-    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <style>
-    .content-body {
-      position: fixed;
-      height: 100%;
-      width: 100%;
-      /* background: url("./img/collage4.jfif") no-repeat center center fixed; */
-      background: url("./img/tanvi3.png") no-repeat center center fixed;
-      background-size: cover;
-
-    }
-
-    .tanvi-image {
-      position: absolute;
-      top: 28%;
-      width: 88%;
-      left: 6%;
-      border-radius: 20px;
-      box-shadow: 0 0 30px rgba(255, 192, 203, 0.7);
-    }
-
-    .flex-box {
-      display: flex;
-      width: 100%;
-      height: 100%;
-      justify-content: space-around;
-      align-items: flex-end;
-      padding-right: 80px;
-    }
-
-    .home-button{
-      position: absolute;
-      /* background: rgba(243, 242, 236); */
-      background: #5A0E24;
-      font-family: "Poppins", sans-serif;
-      text-transform: uppercase;
-      /* color: #5A0E24; */
-      right: 10px;
-      bottom: 10px;
-      color: #fff;
-      padding: 8px 20px 8px 8px !important;
-      border: none;
-      border-radius: 5px;
-      font-weight: 800 !important;
-      font-size: 18px;
-      transition: 0.3s ease-out;
-    }
-
-    .main-button {
-      /* background: rgba(128, 0, 0, 0.7); */
-      /* background: #8E5572; */
-      background: rgba(243, 242, 236);
-      font-family: "Poppins", sans-serif;
-      text-transform: uppercase;
-      color: #5A0E24;
-      padding: 8px 10px;
-      /* color: white; */
-      border: none;
-      border-radius: 0px;
-      width: 130px;
-      font-weight: 1000 !important;
-      font-size: 18px;
-      margin-bottom: 200px;
-      transition: 0.3s ease-out;
-    }
-
-    .main-button:focus {
-      border: none;
-    }
-
-    @keyframes pulseGlow {
-      0% {
-        transform: scale(1);
-        box-shadow: 0 0 5px rgba(255, 192, 203, 0.4);
-      }
-
-      50% {
-        transform: scale(1.05);
-        box-shadow: 0 0 25px rgba(255, 192, 203, 0.3),
-          0 0 45px rgba(255, 192, 203, 0.2);
-      }
-
-      100% {
-        transform: scale(1);
-        box-shadow: 0 0 5px rgba(255, 192, 203, 0.1);
-      }
-    }
-
-    /* .blink {
-      letter-spacing: 1px;
-      text-transform: uppercase;
-      animation: pulseGlow 1.3s infinite ease-in-out;
-    } */
-  </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Limelight&family=Pacifico&family=Sigmar&display=swap"
+        rel="stylesheet">
 
 
+    <!-- Style Flipdown -->
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+
+        .container {
+            background: none;
+            position: relative;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: url('./img/download22.jfif');
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            /* filter: blur(8px); */
+        }
+
+        .imageBox {
+            width: 95%;
+            height: 650px;
+            /* padding: 20px; */
+            /* background: #67B2D8; */
+            background: none;
+            /* border: 2px solid white; */
+            /* -webkit-backdrop-filter: blur(1px);
+            backdrop-filter: blur(1px); */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .imageDiv {
+            position: relative;
+            width: 90%;
+            height: 70%;
+            margin-top: 10px;
+            background: #000;
+        }
+
+        .button-div {
+            /* background: #BF124D; */
+            padding-top: 20px;
+            width: 90%;
+            height: 15%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .button-div button {
+            background: rgba(243, 242, 236);
+            font-family: "Poppins", sans-serif;
+            text-transform: uppercase;
+            color: #5A0E24;
+            padding: 8px 20px;
+            border: none;
+            border-radius: 0px;
+            font-weight: 800;
+            font-size: 18px;
+            transition: 0.3s ease-out;
+        }
+
+        .headerDiv {
+            font-family: "Sigmar", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            color: white;
+            font-size: 33px;
+            width: 100%;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .item {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            /* background: red; */
+            /* background: url('./img/carousel/date1.jpeg'); */
+            background-repeat: no-repeat !important;
+            background-position: center !important;
+            background-size: cover !important;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            flex-direction: column;
+            padding-top: 20px;
+        }
+
+        .carousel-video {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            z-index: 0;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            object-fit: cover;
+        }
+
+        .item .main-text {
+            z-index: 100;
+            /* position: absolute; */
+            text-align: center;
+            width: 100%;
+            font-family: "Poppins", sans-serif;
+            font-size: 50px;
+            /* text-align: center; */
+            font-weight: 1000;
+            /* left: 50%;
+            top: 30%;
+            transform: translate(-50%,-50%); */
+        }
+
+        .item .item-alt-text {
+            z-index: 100;
+            font-family: "Poppins", sans-serif;
+            width: 100%;
+            text-align: center;
+            font-weight: 600;
+            font-size: 15px;
+        }
+
+        .black-text {
+            color: black;
+            -webkit-text-stroke: 1.5px #fff;
+        }
+
+        .white-text {
+            color: white;
+            -webkit-text-stroke: 1.5px #000;
+        }
+
+        .home-button {
+            position: absolute;
+            /* background: rgba(243, 242, 236); */
+            background: #5A0E24;
+            font-family: "Poppins", sans-serif;
+            text-transform: uppercase;
+            /* color: #5A0E24; */
+            right: 10px;
+            bottom: 10px;
+            color: #fff;
+            padding: 8px 20px 8px 8px !important;
+            border: none;
+            border-radius: 5px;
+            font-weight: 800 !important;
+            font-size: 18px;
+            transition: 0.3s ease-out;
+        }
+    </style>
 </head>
 
 <body>
-  <div class="content-body">
-    <!-- <img class="tanvi-image" src="./img/tanvi2.jpg" alt=""> -->
-    <div class="flex-box">
-      <button class="main-button blink move-to-music-section" onclick="window.location.href = './music.html'">
-        <i class="fa-solid fa-headphones"></i>
-        Audio
-      </button>
-      <button class="main-button blink   move-to-letter-section" onclick="window.location.href = './letter.html'">
-        <!-- <i class="fa-solid fa-bookmark"></i> -->
-        <i class="fa-regular fa-bookmark"></i>
-        Letter
-      </button>
-      <button class="home-button" onclick="window.location.href = './index.html'">
-        <i class="fa-solid fa-house-user"></i>
-        Home
-      </button>
+    <div class="container">
+        <div class="imageBox">
+            <div class="headerDiv">
+                <span>Happy Birthay Tanvi</span>
+            </div>
+            <div class="imageDiv">
+                <div class="owl-carousel owl-theme">
+                    <div class="item" style="background: black"><br><br>
+                        <!-- <div class="item" style="background: url('./img/download3.jfif');"><br><br> -->
+                        <p class="item-alt-text" style="color: white;"><i class="fa-solid fa-arrow-right-long"></i></p>
+                        <br>
+                        <p class="item-alt-text" style="color: white;"><i class="fa-solid fa-arrow-right-long"></i></p>
+                        <br>
+                        <p class="item-alt-text" style="color: white;"><i class="fa-solid fa-arrow-right-long"></i></p>
+                        <br>
+                        <p class="item-alt-text" style="color: white;"><i class="fa-solid fa-arrow-right-long"></i></p>
+                        <br>
+                        <p class="main-text white-text">Swipe Right </p><br>
+                        <p class="item-alt-text" style="color: white;"><i class="fa-solid fa-arrow-right-long"></i></p>
+                        <br>
+                        <p class="item-alt-text" style="color: white;"><i class="fa-solid fa-arrow-right-long"></i></p>
+                        <br>
+                        <p class="item-alt-text" style="color: white;"><i class="fa-solid fa-arrow-right-long"></i></p>
+                        <br>
+                        <p class="item-alt-text" style="color: white;"><i class="fa-solid fa-arrow-right-long"></i></p>
+                        <br>
+                    </div>
+                    <div class="item" style="background: url('./img/carousel/date1.jpeg');">
+                        <p class="main-text white-text">First Date</p>
+                        <p class="item-alt-text" style="color: white;">Me thinking it's just a normal date</p>
+                    </div>
+                    <div class="item" style="background: url('./img/carousel/date2.jpeg');">
+                        <p class="main-text white-text">Second Date</p>
+                        <p class="item-alt-text" style="color: white;">Oh it turned to another date</p>
+                    </div>
+                    <div class="item" style="background: url('./img/carousel/date3.jpeg');">
+                        <p class="main-text black-text">Third Date</p>
+                        <p class="item-alt-text" style="color: black;">Let me bring sunflowers for her, just being nice.
+                        </p>
+                    </div>
+                    <div class="item" style="background: url('./img/carousel/date4.jpeg');">
+                        <p class="main-text black-text">Fourth Date</p>
+                        <p class="item-alt-text" style="color: black;">Man I really like her, just seeing bumble in her
+                            phone made me feel bad.</p>
+                    </div>
+                    <div class="item" style="background: url('./img/carousel/date5.jpeg');">
+                        <p class="main-text white-text">Fifth Date</p>
+                        <p class="item-alt-text" style="color: white;">One good date before she's going away</p>
+                    </div>
+                    <div class="item" style="background: url('./img/carousel/date6.jpeg');">
+                        <p class="main-text black-text">Sixth Date</p>
+                        <p class="item-alt-text" style="color: black;">Last day :( , Maybe an end</p>
+                    </div>
+                    <div class="item" style="background: url('./img/carousel/pune1.jpeg');">
+                        <p class="main-text white-text">Pune</p>
+                        <p class="item-alt-text" style="color: white;">Ohh it was not THE END</p>
+                    </div>
+                    <div class="item" style="background: url('./img/carousel/pune2.jpeg');">
+                        <p class="main-text white-text">WOW</p>
+                        <p class="item-alt-text" style="color: white;">We didn't loose contact either, Ab kese jaane du
+                            ise</p>
+                    </div>
+
+                    <div class="item" style="background: url('./img/carousel/letter1.jpeg');">
+                        <p class="main-text white-text">1st Aug</p>
+                        <p class="item-alt-text" style="color: black;">First note for my ALMOST Girlfriend om
+                            girlfriend's day</p>
+                    </div>
+
+                    <div class="item" style="background: url('./img/carousel/letter.jpeg');">
+                        <p class="main-text white-text">Letter</p>
+                        <p class="item-alt-text" style="color: white;">My First official Letter to you</p>
+                    </div>
+                    <div class="item" style="background: url('./img/carousel/official.jpeg');">
+                        <p class="main-text black-text">20/08/2025</p>
+                        <p class="item-alt-text" style="color: black;">WE ARE OFFICIAL!!!</p>
+                    </div>
+                    <div class="item">
+                        <video autoplay muted loop playsinline class="carousel-video">
+                            <source src="./img/carousel/vid1.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <p class="main-text white-text">First Almost Breakup</p>
+                        <p class="item-alt-text" style="color: white;">Me thinking, Is that the end?</p>
+                    </div>
+                    <div class="item" style="background: url('./img/carousel/brkup1.jpeg');">
+                        <p class="main-text white-text">Ohhh It was nottt!!!</p>
+                        <p class="item-alt-text" style="color: white;">PS Our first I love you on this day</p>
+                    </div>
+                    <div class="item" style="background: url('./img/carousel/bestdate.jpeg');">
+                        <p class="main-text white-text">Our Best Date!</p>
+                        <p class="item-alt-text" style="color: white;">could it be any more perfect?</p>
+                    </div>
+                    <div class="item" style="background: url('./img/carousel/favone.jpeg');">
+                        <p class="main-text white-text">Fav One.</p>
+                        <p class="item-alt-text" style="color: white;">You in Chaniya choli? I guess i've fallen all
+                            over again.</p>
+                    </div>
+                    <div class="item" style="background: url('./img/carousel/stay.jpeg');">
+                        <p class="main-text white-text">First Stay.</p>
+                        <p class="item-alt-text" style="color: white;">Yes we can live together I guess.</p>
+                    </div>
+                    <div class="item" style="background: url('./img/carousel/bday.jpeg');">
+                        <p class="main-text white-text"></p>
+                        <p class="item-alt-text" style="color: black;">My first birthday with you</p>
+                    </div>
+                    <div class="item" style="background: url('./img/carousel/Anklet.jpeg');">
+                        <p class="main-text white-text">Peak Intimacy.</p>
+                        <p class="item-alt-text" style="color: white;">Never knew love could make me bow like this, and
+                            I wouldn’t have it any other way.</p>
+                    </div>
+                    <div class="item" style="background: url('./img/carousel/breakup.jpeg');">
+                        <p class="main-text black-text">2nd Breakup</p>
+                        <p class="item-alt-text" style="color: white;">Me thinking these are last sunflowers I am
+                            getting someone</p>
+                    </div>
+                    <div class="item" style="background: url('./img/carousel/patchup.jpeg');">
+                        <p class="main-text white-text">Well it was not.</p>
+                        <p class="item-alt-text" style="color: white;"></p>
+                    </div>
+                    <div class="item" style="background: url('./img/carousel/study.jpeg');">
+                        <p class="main-text white-text">LDR</p>
+                        <p class="item-alt-text" style="color: black;">And it turned to studying together for around
+                            more than a month.</p>
+                    </div>
+                    <div class="item" style="background: url('./img/carousel/Sleep.jpeg');">
+                        <p class="main-text white-text">Cute no?</p>
+                        <p class="item-alt-text" style="color: white;">I could wake up to this every day.</p>
+                    </div>
+                    <div class="item" style="background: url('./img/carousel/cook.jpeg');">
+                        <p class="main-text white-text">You literally cooked for me</p>
+                        <p class="item-alt-text" style="color: black;">And it meant more than you know.</p>
+                    </div>
+                    <div class="item" style="background: black"><br><br><br><br><br><br>
+                        <p class="main-text white-text">The End</p>
+                        <p class="item-alt-text" style="color: white;"> Not a end actually, This is just a beginning of
+                            us.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="button-div">
+                <button onclick="window.location.href = './music.html'">
+                    <i class="fa-solid fa-headphones"></i>
+                    audio
+                </button>
+                <button onclick="window.location.href = './letter.html'">
+                    <i class="fa-solid fa-bookmark"></i>
+                    letter
+                </button>
+            </div>
+        </div>
+        <button class="home-button" onclick="window.location.href = './index.html'">
+            <i class="fa-solid fa-house-user"></i>
+            Home
+        </button>
     </div>
-    
-    
-  </div>
+    <script>
+        $(function () {
+            // Owl Carousel
+            var owl = $(".owl-carousel");
+            owl.owlCarousel({
+                items: 1,
+                margin: 10,
+                loop: true,
+                nav: false,
+                dots: false,
+                // autoplay: true,
+                // autoplayTimeout: 3000,
+                // autoplayHoverPause: true
+            });
+        });
 
-
-
-
-
-
-
-
-
-
-  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
-    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-    crossorigin="anonymous"></script>
-  <script src="js/app.js"></script>
-
+    </script>
 </body>
 
 </html>

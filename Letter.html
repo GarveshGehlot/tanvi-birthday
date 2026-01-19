@@ -1,217 +1,246 @@
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>For Tanvi 💛</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Open+Sans&display=swap"
-    rel="stylesheet">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <title>Happy Birthday</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
 
-  <style>
-    body {
-      overflow: hidden;
-      padding: 0;
-      margin: 0;
-      background: url("./img/collage1.jfif") no-repeat center center fixed;
-      background-size: cover;
-    }
+    <meta property="og:title" content="">
+    <meta property="og:type" content="">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+    <meta property="og:image:alt" content=""> <!-- Google Fonts -->
+    <link rel="manifest" href="site.webmanifest">
+    <meta name="theme-color" content="#fafafa">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Open+Sans&display=swap"
+        rel="stylesheet">
 
-    main {
-      width: 100%;
-      padding: 50px;
-      height: 100vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-      user-select: none;
-    }
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Limelight&family=Pacifico&family=Sigmar&display=swap"
+        rel="stylesheet">
 
-    .cards {
-      width: 90%;
-      height: 60%;
-      border-radius: 50px;
-      padding: 30px 50px;
-      margin-top: 40px;
-      box-shadow: 6px 27px 50px rgba(0, 0, 0, 0.1);
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      position: relative;
-      overflow-y: scroll;
-      /* border: 2px solid black; */
-      /* background: url("./img/download2.jfif") no-repeat center center fixed; */
-      background: rgba(255,255, 255, 0.5);
-      background-size: cover;
-    }
 
-    .letter-text {
-      color: black;
-      font-family: "Poppins", sans-serif;
-      font-weight: 700;
-      line-height: 1.6;
-      width: 100%;
-      height: 100%;
-      position: relative;
-      font-size: 45px;
-      overflow-y: scroll;
-    }
+    <!-- Style Flipdown -->
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
 
-    .letter-text-header {
-      font-weight: 1000;
-      font-size: 75px;
-      font-weight: 700;
-      text-align: center;
-      margin: 0;
-    }
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <style>
+        body {
+            overflow-x: hidden;
+            margin: 0;
+            background: url("./img/collage1.jfif") no-repeat center center;
+            background-size: cover;
+        }
 
-    .cards img {
-      height: 100%;
-      width: 100%;
-      object-fit: cover;
-      padding: 10px;
-      display: inline-block;
-      border-radius: 20px;
-    }
+        * {
+            box-sizing: border-box;
+        }
 
-    #open {
-      /* width: 00px; */
-      font-family: "Poppins", sans-serif;
-      font-weight: 800;
-      /* height: 300px; */
-      /* border-radius: 50%; */
-      padding: 30px 40px;
-      border: 2px solid white;
-      /* padding: 0; */
-      /* background-color: #000; */
-      position: absolute;
-      z-index: 20;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-      line-height: 50px;
-      font-size: 60px;
-      font-weight: bolder;
-      color: #76153C;
-      background: white;
-      opacity: 100;
-      cursor: pointer;
-      transition: all 300ms ease-in-out;
-    }
 
-    #overlay1 {
-      width: 50.5%;
-      height: 100%;
-      border-top-left-radius: 15px;
-      border-bottom-left-radius: 15px;
-      /* background: #67B2D8; */
-      background: url("./img/download2.jfif") no-repeat center center fixed;
-      background-size: cover;
-      position: absolute;
-      left: 0;
-      transition: all 300ms ease-in-out;
-      transition-delay: 300ms;
-      z-index: 10;
-    }
+        .main {
+            position: relative;
+            width: 100%;
+            padding: 10px;
+            /* height: 100vh; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            user-select: none;
+        }
 
-    #overlay2 {
-      width: 50%;
-      height: 100%;
-      border-top-right-radius: 15px;
-      border-bottom-right-radius: 15px;
-      /* background: #BF124D; */
-      background: url("./img/download2.jfif") no-repeat center center fixed;
-      background-size: cover;
-      position: absolute;
-      right: 0;
-      transition: all 300ms ease-in-out;
-      transition-delay: 300ms;
-      z-index: 10;
+        .cards {
+            width: 100%;
+            max-width: 100%;
+            height: 700px;
+            border-radius: 10px;
+            padding: 10px 20px;
+            margin-top: 40px;
+            box-shadow: 6px 27px 50px rgba(0, 0, 0, 0.1);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            overflow-y: scroll;
+            /* border: 2px solid black; */
+            background: whitesmoke;
+            /* background: url("./img/download2.jfif") no-repeat center center fixed; */
+            /* background: rgba(255, 255, 255, 0.5); */
+            background-size: cover;
+        }
 
-    }
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
 
-    .active #open {
-      opacity: 0;
-    }
 
-    .active #overlay1,
-    .active #overlay2 {
-      width: 0%;
-    }
+        /* Handle */
+        ::-webkit-scrollbar-thumb {
+            background: #76153C;
+        }
 
-    .go-back {
-      position: relative;
-      margin-top: 10px;
-      margin-left: 20px;
-      color: white;
-      font-weight: 800;
-      /* background: #67B2D8; */
-      background: #76153C;
-      /* border: 2px solid; */
-      font-size: 50px;
-      padding: 15px 40px 15px 20px;
-      border-radius: 20px;
-    }
-  </style>
+        
+
+        .letter-text {
+            color: black;
+            font-family: "Poppins", sans-serif;
+            font-weight: 700;
+            line-height: 1.6;
+            width: 100%;
+            height: 100%;
+            position: relative;
+            font-size: 20px;
+            overflow-y: scroll;
+        }
+
+
+
+        .letter-text-header {
+            font-weight: 1000;
+            font-size: 25px;
+            font-weight: 700;
+            text-align: center;
+            margin: 0;
+        }
+
+        .cards img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            padding: 10px;
+            display: inline-block;
+            border-radius: 20px;
+        }
+
+        #open {
+            font-family: "Poppins", sans-serif;
+            font-weight: 800;
+            padding: 3px 20px;
+            border: 2px solid white;
+            position: absolute;
+            z-index: 20;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            line-height: 50px;
+            font-size: 20px;
+            font-weight: bolder;
+            color: #76153C;
+            background: white;
+            opacity: 100;
+            cursor: pointer;
+            transition: all 300ms ease-in-out;
+        }
+
+        #overlay1 {
+            width: 50.5%;
+            height: 100%;
+            border-top-left-radius: 15px;
+            border-bottom-left-radius: 15px;
+            /* background: #67B2D8; */
+            background: url("./img/download2.jfif") no-repeat center center fixed;
+            background-size: cover;
+            position: absolute;
+            left: 0;
+            transition: all 300ms ease-in-out;
+            transition-delay: 300ms;
+            z-index: 10;
+        }
+
+        #overlay2 {
+            width: 50%;
+            height: 100%;
+            border-top-right-radius: 15px;
+            border-bottom-right-radius: 15px;
+            /* background: #BF124D; */
+            background: url("./img/download2.jfif") no-repeat center center fixed;
+            background-size: cover;
+            position: absolute;
+            right: 0;
+            transition: all 300ms ease-in-out;
+            transition-delay: 300ms;
+            z-index: 10;
+
+        }
+
+        .active #open {
+            opacity: 0;
+        }
+
+        .active #overlay1,
+        .active #overlay2 {
+            width: 0%;
+        }
+
+        .go-back {
+            margin-top: 30px;
+            margin-left: 20px;
+            color: white;
+            font-weight: 800;
+            background: #5A0E24;
+            /* border: 2px solid; */
+            font-size: 15px;
+            padding: 8px 20px 8px 10px;
+            border-radius: 20px;
+            border: none;
+        }
+    </style>
 </head>
 
 <body>
-  <main>
-    <div id="tsparticles"></div>
-    <button class="go-back" onclick="window.location.href = './mainPage.html'"><i class="fa fa-arrow-circle-left"
-        aria-hidden="true"></i>
-      Main Page
-    </button>
-    <div class="cards" id="card1">
-      <div id="overlay1"></div>
-      <div id="open">Tap Me!</div>
-      <div id="overlay2"></div>
-      <div class="letter-text">
-        <h1 class="letter-text-header">Helloooo</h1>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti temporibus repellendus placeat. Maxime cum
-        earum deserunt sint dignissimos odio suscipit incidunt a accusamus, nobis voluptatibus, sapiente eaque officiis
-        animi aperiam vel iste cupiditate! Cum qui sit repudiandae architecto provident vitae similique ullam rem id
-        cupiditate magni aut esse tempora consequuntur eligendi delectus veniam, nostrum assumenda ratione illo nemo
-        accusantium quia quod. Amet at necessitatibus soluta quos non vero harum voluptates itaque quisquam asperiores
-        nam eveniet quam molestiae, omnis voluptatum rem laboriosam natus quod labore, delectus sit commodi inventore
-        ratione! Necessitatibus commodi veniam, quo accusantium ullam pariatur doloremque fuga asperiores nesciunt
-        aliquid repellat non totam iste velit veritatis dolores exercitationem quia sapiente esse expedita tenetur
-        tempora autem? Reprehenderit aliquam quas numquam odit, suscipit fugiat. Ullam distinctio nemo dolores ut
-        exercitationem dolore ipsam at blanditiis sit nam repudiandae consectetur corrupti quidem aliquid repellendus
-        iste quis, adipisci cupiditate unde eum pariatur officia voluptatum vero optio. Consequuntur tempore eum sed
-        dolores excepturi quasi dignissimos delectus doloremque eveniet laboriosam, animi nihil aliquid reprehenderit
-        mollitia perspiciatis earum! Sed cupiditate optio officia voluptatem ratione nemo, impedit consequatur aliquam
-        adipisci culpa quis debitis numquam veritatis eaque, placeat eveniet! Reprehenderit, recusandae. Libero fugiat
-        aperiam repellat quia dolorem beatae fugit!
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti temporibus repellendus placeat. Maxime cum
-        earum deserunt sint dignissimos odio suscipit incidunt a accusamus, nobis voluptatibus, sapiente eaque officiis
-        animi aperiam vel iste cupiditate! Cum qui sit repudiandae architecto provident vitae similique ullam rem id
-        cupiditate magni aut esse tempora consequuntur eligendi delectus veniam, nostrum assumenda ratione illo nemo
-        accusantium quia quod. Amet at necessitatibus soluta quos non vero harum voluptates itaque quisquam asperiores
-        nam eveniet quam molestiae, omnis voluptatum rem laboriosam natus quod labore, delectus sit commodi inventore
-        ratione! Necessitatibus commodi veniam, quo accusantium ullam pariatur doloremque fuga asperiores nesciunt
-        aliquid repellat non totam iste velit veritatis dolores exercitationem quia sapiente esse expedita tenetur
-        tempora autem? Reprehenderit aliquam quas numquam odit, suscipit fugiat. Ullam distinctio nemo dolores ut
-        exercitationem dolore ipsam at blanditiis sit nam repudiandae consectetur corrupti quidem aliquid repellendus
-        iste quis, adipisci cupiditate unde eum pariatur officia voluptatum vero optio. Consequuntur tempore eum sed
-        dolores excepturi quasi dignissimos delectus doloremque eveniet laboriosam, animi nihil aliquid reprehenderit
-        mollitia perspiciatis earum! Sed cupiditate optio officia voluptatem ratione nemo, impedit consequatur aliquam
-        adipisci culpa quis debitis numquam veritatis eaque, placeat eveniet! Reprehenderit, recusandae. Libero fugiat
-        aperiam repellat quia dolorem beatae fugit!
-      </div>
-      <!-- <img src="https://i.ibb.co/bLmXQCk/IMG-0899.jpg" alt=""> -->
+    <div class="main">
+        <button class="go-back" onclick="window.location.href = './mainPage.html'"><i class="fa fa-arrow-circle-left"
+                aria-hidden="true"></i>
+            Main Page
+        </button>
+        <div class="cards" id="card1">
+            <div id="overlay1"></div>
+            <div id="open">Tap Me!</div>
+            <div id="overlay2"></div>
+            <div class="letter-text">
+                <h1 class="letter-text-header">Helloooo</h1>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora esse voluptatem minus quasi sapiente
+                totam. Qui reiciendis distinctio dolores adipisci ea molestiae nemo pariatur. Cum sit, non velit eum,
+                facere molestias distinctio magni similique expedita cumque unde? Harum ad nam recusandae impedit? Nam
+                harum fuga velit dolor in officiis eius ut neque hic! Eveniet, distinctio totam? Esse corrupti natus
+                aperiam officia commodi, doloremque provident quis? Sunt enim, animi esse illo qui voluptatibus
+                doloribus debitis recusandae? Deleniti eius blanditiis vitae deserunt illum alias commodi quod
+                perspiciatis sed nulla cumque porro quis ratione labore libero provident exercitationem, voluptatum,
+                dolor molestiae, molestias impedit?
+
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora esse voluptatem minus quasi sapiente
+                totam. Qui reiciendis distinctio dolores adipisci ea molestiae nemo pariatur. Cum sit, non velit eum,
+                facere molestias distinctio magni similique expedita cumque unde? Harum ad nam recusandae impedit? Nam
+                harum fuga velit dolor in officiis eius ut neque hic! Eveniet, distinctio totam? Esse corrupti natus
+                aperiam officia commodi, doloremque provident quis? Sunt enim, animi esse illo qui voluptatibus
+                doloribus debitis recusandae? Deleniti eius blanditiis vitae deserunt illum alias commodi quod
+                perspiciatis sed nulla cumque porro quis ratione labore libero provident exercitationem, voluptatum,
+                dolor molestiae, molestias impedit?
+            </div>
+        </div>
     </div>
-  </main>
-  <script>
-    let Card1 = document.getElementById('card1');
-    let Openbtn = document.getElementById('open');
-    let overlay1 = document.getElementById('overlay1');
-    let overlay2 = document.getElementById('overlay2');
-    Card1.addEventListener('click', function () {
-      Card1.classList.toggle('active');
-    })
-  </script>
+
+    <script>
+        let Card1 = document.getElementById('card1');
+        let Openbtn = document.getElementById('open');
+        let overlay1 = document.getElementById('overlay1');
+        let overlay2 = document.getElementById('overlay2');
+        Card1.addEventListener('click', function () {
+            Card1.classList.toggle('active');
+        })
+    </script>
 </body>
 
 </html>
