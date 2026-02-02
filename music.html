@@ -374,9 +374,9 @@
     }
 
     .player-header p.playing-from {
-          font-family: "SpotifyMix", sans-serif;
-        font-weight: 600;
-        font-size: 20px;
+      font-family: "SpotifyMix", sans-serif;
+      font-weight: 600;
+      font-size: 20px;
       /* text-transform: uppercase; */
     }
 
@@ -401,7 +401,7 @@
       z-index: 3;
     }
 
-    .poster-container {
+    /* .poster-container {
       position: relative;
       left: 0%;
       display: flex;
@@ -409,6 +409,15 @@
       width: 100%;
       margin: auto;
       transition: all 0.2s ease;
+    } */
+
+    .poster-container {
+      position: relative;
+      display: flex;
+      height: 100%;
+      width: 600%;
+      /* number of songs × 100% */
+      transition: all 0.3s ease;
     }
 
     .poster {
@@ -595,7 +604,8 @@
 
     .warning-div {
       /* font-family: "Poppins", sans-serif; */
-      font-family: "SpotifyMix", sans-serif;;
+      font-family: "SpotifyMix", sans-serif;
+      ;
       /* font-weight: 800; */
       padding: 10px;
       /* font-size: 20px; */
@@ -701,8 +711,9 @@
       left: 50%;
       transform: translateX(-50%);
     }
-    .library{
-          font-family: "SpotifyMix", sans-serif;
+
+    .library {
+      font-family: "SpotifyMix", sans-serif;
     }
   </style>
 </head>
@@ -822,52 +833,45 @@
 
     const musicInfo = [
       {
-        musicName: "Tum Se Hi-1",
+        musicName: "Tum Se Hi",
         artistName: "Garvesh Gehlot",
         musicSrc: "./audio/tumsehi2.mp3",
-        musicPoster: "https://i.ytimg.com/vi/o907r6NsK9s/maxresdefault.jpg",
-        liked: true
-      },
-      {
-        musicName: "Tum Se Hi-2",
-        artistName: "Garvesh Gehlot",
-        musicSrc: "./audio/tumsehi2.mp3",
-        musicPoster: "https://i.ytimg.com/vi/o907r6NsK9s/maxresdefault.jpg",
+        musicPoster: "./img/player-img/image-1.jpeg",
         liked: true
       },
       {
         musicName: "The song I'd dedicate to you",
         artistName: "Garvesh Gehlot",
         musicSrc: "./audio/ekAjnabee.mp3",
-        musicPoster: "https://i.ytimg.com/vi/o907r6NsK9s/maxresdefault.jpg",
+        musicPoster: "./img/player-img/image-2.jpeg",
         liked: true
       },
       {
         musicName: "May not say this much but",
         artistName: "Garvesh Gehlot",
         musicSrc: "./audio/iloveyou.mp3",
-        musicPoster: "https://i.ytimg.com/vi/o907r6NsK9s/maxresdefault.jpg",
+        musicPoster: "./img/player-img/image-3.jpeg",
         liked: true
       },
       {
         musicName: "Promise or threat haha",
         artistName: "Garvesh Gehlot",
         musicSrc: "./audio/kaunTujhe.mp3",
-        musicPoster: "https://i.ytimg.com/vi/o907r6NsK9s/maxresdefault.jpg",
+        musicPoster: "./img/player-img/image-5.jpeg",
         liked: true
       },
       {
         musicName: "PS: You are dating a garba paglu",
         artistName: "Garvesh Gehlot",
         musicSrc: "./audio/madhmithi.mp3",
-        musicPoster: "https://i.ytimg.com/vi/o907r6NsK9s/maxresdefault.jpg",
+        musicPoster: "./img/player-img/image-6.jpeg",
         liked: true
       },
       {
         musicName: "Nothing else just every word belongs to you",
         artistName: "Garvesh Gehlot",
         musicSrc: "./audio/Perfect.mp3",
-        musicPoster: "https://i.ytimg.com/vi/o907r6NsK9s/maxresdefault.jpg",
+        musicPoster: "./img/player-img/image-7.jpeg",
         liked: true
       },
 
